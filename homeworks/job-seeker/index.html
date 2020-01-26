@@ -1,37 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>CSS - Goku</title>
-
-  <link rel="stylesheet" href="./index.css">
+<html lang="pt-br" <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="./css/style.css">
+<title>Job Seeker</title>
 </head>
 
 <body>
-  <div class="menu">
-    <img src="https://vagaemprego.com.br/wp-content/uploads/2019/07/emprego-13-13-.png" width="48px" alt="logo empresa"
-      style="padding: 5px 20px;">
-    <div class="links">
-      <a href="#">Inicio</a>
-      <a href="#">Contato</a>
-      <a href="#">Sobre nós</a>
-    </div>
-  </div>
-
-  <div class="container">
-    <h1>Procura-se profissionais com conhecimento em HTML e CSS</h1>
-    <h2>Vagas Escassas</h2>
-
-    <img src="https://cdn-istoe-ssl.akamaized.net/wp-content/uploads/sites/14/2016/01/mi_7874762448044230.jpg"
-      alt="Homem em busca de oportunidades">
-    <div>
-      Para mais informações
-      <a href="https://heroway.com.br">clique aqui!</a>
-    </div>
-  </div>
+    <header id="main-header">
+        <div class="layout-header">
+            <div class="icone-container">
+                <img id="icone-img" src="./img/icon.png" />
+            </div>
+            <div class="menu-links">
+                <a class="single-link" href="#">Inicio</a>
+                <a class="single-link" href="#">Sobre nós</a>
+                <a class="single-link" href="#">Contato</a>
+            </div>
+        </div>
+    </header>
+    <section id="section-job">
+        <h1 class="title">Emprego para profissional com conhecimento em
+            <span class="destaque">HTML</span> e
+            <span class="destaque">CSS</span>
+        </h1>
+        <p class="subtitle">Corra, as vagas são limitadas e uma delas pode ser sua!</p>
+        <img class="img-job" src="./img/job-offer.jpg" />
+        <div class="btn-job">
+            <a class="link-job" href="https://www.heroway.com.br" target="blank">
+                Clique aqui e se inscreva!</a>
+        </div>
+    </section>
 </body>
 
 </html>
