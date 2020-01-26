@@ -1,4 +1,5 @@
 @import './header.css';
+@import './banner.css';
 @import 'https://fonts.googleapis.com/css?family=Poppins&display=swap';
 
 html {
@@ -14,6 +15,7 @@ html {
 
 h1 {
     font-size: 2.5rem;
+    text-transform: uppercase;
 }
 
 .line-container {
@@ -22,6 +24,7 @@ h1 {
     justify-content: space-around;
     align-items: center;
     width: 10rem;
+    margin-bottom: 0.5rem;
 }
 
 .line {

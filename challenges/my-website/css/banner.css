@@ -1,0 +1,15 @@
+section.banner {
+    width: 100%;
+    background-color: #D40a44;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffff;
+    padding: 5rem;
+}
+
+section.banner .avatar-img {
+    width: 10%;
+}
+
