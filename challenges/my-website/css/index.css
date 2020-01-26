@@ -1,5 +1,7 @@
 @import './header.css';
 @import './banner.css';
+@import './portfolio.css';
+@import './about.css';
 @import 'https://fonts.googleapis.com/css?family=Poppins&display=swap';
 
 html {
