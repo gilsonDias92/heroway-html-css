@@ -1,0 +1,25 @@
+.main-header {
+  background-color: rgb(44, 62, 80);
+  padding: 1.5rem 20%;
+}
+
+.main-header,
+.main-header .navigator {
+  color: #ffff;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.main-header .navigator {
+  width: 25%;
+  padding: 0.5rem;
+}
+
+.main-header .navigator .menu-links {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 0.8rem;
+}
